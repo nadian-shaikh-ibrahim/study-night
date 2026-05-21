@@ -1,20 +1,20 @@
 /* TODO: Manually optimize CSS styling. */
 /* Remove unused and unnecessary styling and selectors */
 /* About page Styling */
-body main div .aboutContainer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-  }
+.aboutContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
   
   body main div .aboutContainer {}
   
-  body main div .aboutContainer img {
+  .aboutContainer img {
     width: 400px;
     height: 300px;
     border-radius: 10%;
-  }
+}
   
   body main div .textContainer {
     width: 550px;
