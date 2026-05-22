@@ -3,7 +3,7 @@ import shell from "gulp-shell";
 
 gulp.task(
   "parcel",
-  shell.task(["npx parcel build index.html"])
+  shell.task(["npx parcel index.html"])
 );
 
 gulp.task(
