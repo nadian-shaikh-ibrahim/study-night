@@ -2,7 +2,7 @@
 /* TODO: Manually optimize CSS styling. */
 /* Remove unused and unnecessary styling and selectors */
 
-form {}
+
 
 form {
   display: flex;
